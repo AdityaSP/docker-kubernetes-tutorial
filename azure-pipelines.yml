@@ -2,8 +2,8 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 variables:
-  imageName: 'rapiddevpro/my-node-app'
-  dockerId: 'rapiddevpro'
+  imageName: 'adityaprabhakara/my-node-app'
+  dockerId: 'adityaprabhakara'
 
 steps:
 - script: docker build -f Dockerfile -t $(imageName) .
