@@ -30,6 +30,6 @@ spec:
     spec:
       containers:
         - name: my-node-app-container 
-          image: rapiddevpro/my-node-app
+          image: adityaprabhakara/my-node-app
           ports:
             - containerPort: 4000
